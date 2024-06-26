@@ -1,0 +1,6 @@
+echo '[[redirects]]
+  from = "/*"
+  to = "https://muniucloud.pro/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}' > netlify.toml
